@@ -1,17 +1,8 @@
 marks=[]
 
-m1=int(input("Enter:"))
-marks.append(m1)
-m1=int(input("Enter:"))
-marks.append(m1)
-m1=int(input("Enter:"))
-marks.append(m1)
-m1=int(input("Enter:"))
-marks.append(m1)
-m1=int(input("Enter:"))
-marks.append(m1)
-m1=int(input("Enter:"))
-marks.append(m1)
-
-marks.reverse()
+print("Enter number of marks:")
+n=int(input())
+for _ in range(n):
+    marks.append(int(input()))
+marks.sort()
 print(marks)
